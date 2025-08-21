@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+#root{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x:hidden;
+}
+
+.font{
+  font-family: font;
+}
+
+@font-face {
+  font-family: font;
+  src: url(./assets/roboto.ttf);
+}
+
+body{overflow-x: hidden;}
+
+:root{
+  --background:#1f1f1f;
+  --sec:#181818;
+}
